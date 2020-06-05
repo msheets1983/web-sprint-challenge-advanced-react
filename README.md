@@ -30,13 +30,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+Classes that contain state. Generally have state that is initialized within the constructor function.
+
 2. Describe the different phases of the component lifecycle.
+
+First, the mounting phase initializes the constuctor, renders, and runs cDM. The next phase is the Updating phase. Which is rendering and componentDidUpdate. Finally, it's the Unmounting phase, which consists of componentWillUnmount.
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
+There are several methods used within the React Lifecycle. These are used to tell our code when to initialize, update, unmount, render, etc. A clear example would be the use of componentWillUnmount. It is often used to clean up leftover effects/state that would ultimately bog down the computer after storing multiple renders.
+
 4. Define stateful logic.
 
+Stateful logic deals with any sort of code that utilizes state.
+
 5. Describe how to test a React component with React Testing Library.
+
+It is initialized with a test() of which takes two arguments. The first is a semantic name for the test you are running and the second is an anonymous function where you will build the test.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
